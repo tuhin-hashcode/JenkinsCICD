@@ -9,6 +9,6 @@ public class TestController {
 	@GetMapping("/test")
 	public String test()
 	{
-		return "Hello World! JenkinsCICD working fine";
+		return "This is a test message just to make sure if Jenkins CICD working fine";
 	}
 }
